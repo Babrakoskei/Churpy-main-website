@@ -1,0 +1,42 @@
+{
+  "name": "churpy.co",
+  "description": "Churpy makes payment operations simple, scalable, and secure.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "postbuild": "next-sitemap",
+    "lint": "eslint 'src/**/*.ts?(x)'",
+    "lint:fix": "npm run lint --fix",
+    "start": "next start -p 8080"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-is": "^17.0.2",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^6.0.2",
+    "styled-components": "^5.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "15.0.0",
+    "@types/react": "17.0.4",
+    "@types/react-dom": "17.0.3",
+    "@types/styled-components": "5.1.9",
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "babel-plugin-styled-components": "^1.12.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.1",
+    "next-sitemap": "^1.6.203",
+    "typescript": "4.2.4"
+  }
+}
