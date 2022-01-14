@@ -11,7 +11,9 @@
     "postbuild": "next-sitemap",
     "lint": "eslint 'src/**/*.ts?(x)'",
     "lint:fix": "npm run lint --fix",
-    "start": "next start -p 8080"
+    "start": "next start -p 8080",
+    "postinstall":"tsc"
+
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
